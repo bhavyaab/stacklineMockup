@@ -1,0 +1,12 @@
+@import '../../../styles/lib/var';
+
+.myChart{
+    box-shadow: 2px 2px 3px -2px;
+    ul{
+            display: flex;
+            background-color: $white;
+            justify-content: space-around;
+            padding: 2em 0;
+            border-top: 1px solid $borderColor;
+        }
+}

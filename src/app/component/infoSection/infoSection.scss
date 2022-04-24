@@ -1,0 +1,46 @@
+@import '../../../styles/lib/var';
+
+.infoSection{
+    width: 20%;
+    margin-top: 4em;
+    margin-left: 1%;
+    border-radius: 0.1em;
+    background-color: white;
+    height: calc(100vh - 4em);
+    box-shadow: 2px 2px 3px -2px;
+
+    img {        
+        width: 55%;
+        margin-top: 1.5em;
+        margin-right: 0.5em;
+    }
+
+    h2{
+        font-weight: bold;
+        font-size: 1.25em;
+        margin-top: 1em;
+        color: $fontPrimaryColor;
+    }
+    h6{
+        width: 70%;
+        margin-top: 1em;
+        margin-left: 15%;
+        line-height: 1.4em;
+    }
+    .tags{
+        margin-top: 1em;
+        padding: 1em 0;
+        border-top: 1px solid $borderColor;
+        border-bottom: 1px solid $borderColor;
+        li{
+            text-align: left;
+            font-weight: 500;
+            margin: 0.15em .5em;
+            border-radius: 0.35em;
+            display: inline-block;
+            padding: 0.25em 1.25em;
+            color: $fontPrimaryColor;
+            border: 1px solid $borderColor;
+        }
+    }
+}

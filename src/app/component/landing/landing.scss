@@ -1,0 +1,12 @@
+@import '../../../styles/lib/var';
+.landing{
+    background-color: inherit;
+    position: relative;
+    .dataSection{
+        top: 0;
+        left: 22%;
+        width: 75%;
+        min-height: 3em;
+        position: absolute;
+    }
+}

@@ -1,0 +1,33 @@
+$colorPrimary: #07294a;
+$colorSecondary: #58aef5;
+$colorTertiory: #9aa6be;
+$backgroundColor: #f6f8fa;
+
+$fontPrimaryColor : #424d5e;
+$fontSecondaryColor: #b0b3ba;
+
+$borderColor: #f0f2f4;
+
+$black: #000;
+$white: #fff;
+
+@import "@fontsource/roboto";
+@import '@fontsource/lato';
+
+$ff-primary: 'lato', Sans;
+$ff-secondary: 'roboto', Sans;
+
+
+:export {
+    colorPrimary: $colorPrimary;
+    colorSecondary: $colorSecondary;
+    colorTertiory: $colorTertiory;
+    backgroundColor: $backgroundColor;
+    fontPrimaryColor : $fontPrimaryColor ;
+    fontSecondaryColor: $fontSecondaryColor;
+    borderColor: $borderColor;
+    black: $black;
+    white: $white;
+    ffPrimary: $ff-primary;
+    ffSecondary: $ff-secondary;
+}

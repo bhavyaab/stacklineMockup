@@ -1,0 +1,12 @@
+@import '../../../styles/lib/var';
+
+.header {
+    height: 5em;
+    text-align: left;
+    background-color: $colorPrimary;
+    .logo{
+        width: 9em;
+        margin-left: 1%;
+        margin-top: 1.5em;
+    }
+}
