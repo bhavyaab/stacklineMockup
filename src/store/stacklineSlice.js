@@ -23,10 +23,15 @@ export const stacklineSlice = createSlice({
             state.image = action.payload.image;
             state.tags = action.payload.tags;
             state.sales = action.payload.sales;
-        })
+            state.isFetching = false;
+        });        
+        builder.addCase(getMockData.pending, (state, action) => {
+            state.isFetching = true;
+        });
     }
 });
 
+export const isFetching = (state) => state.stacklineState.isFetching;
 export const salesData = (state) => state.stacklineState.sales;
 export const productInfo = (state) => {
     return { 
@@ -34,9 +39,8 @@ export const productInfo = (state) => {
         image: state.stacklineState.image,
         subtitle: state.stacklineState.subtitle,
         tags: state.stacklineState.tags
-    }
-
-}
+    };
+};
 
 
 // export const {  } = stacklineSlice.actions;

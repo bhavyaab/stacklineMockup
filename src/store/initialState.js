@@ -3,5 +3,6 @@ export const initialState = {
     subtitle: '',
     image : '',
     sales: [],
-    tags : []
+    tags : [],
+    isFetching: true,
 };
